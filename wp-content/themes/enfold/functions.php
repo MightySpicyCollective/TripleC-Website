@@ -499,8 +499,7 @@ add_theme_support( 'avia_post_meta_compat');
  */
 add_theme_support('force-post-thumbnails-in-widget');
 
-
-
+add_theme_support('avia_template_builder_custom_css');
 
 
 
