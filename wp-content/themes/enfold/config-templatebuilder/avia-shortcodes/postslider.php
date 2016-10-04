@@ -545,8 +545,9 @@ if ( !class_exists( 'avia_post_slider' ) )
 
 				if($params['offset'] == 'no_duplicates')
                 {
-                    $params['offset'] = 0;
-                    $no_duplicates = true;
+                    //$params['offset'] = 0;
+                    $params['offset'] = ( $page - 1 ) * $params['items'];
+                   	$no_duplicates = true;
                 }
 
                 if(empty($params['post_type'])) $params['post_type'] = get_post_types();
