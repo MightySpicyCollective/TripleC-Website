@@ -28,6 +28,7 @@ GENERAL
 
 #homepage-introduction .entry-content-header a:hover{color:#f05a1a;}
 
+/*Change to grey background for orange sub-headers*/
 .title_container {background-color: #ffffff;}
 
 /*
@@ -73,6 +74,33 @@ COMPOSE PAGE
 .student-sound-projects .student-sound-block{width: 75px;}
 .student-sound-projects h6{line-height: 20px;}
 
+/*audio plugin changes*/
+
+.student-sound-block .sc_player_container1 .myButton_play {
+background: #ffd554 url(http://triplec.dev/wp-content/plugins/compact-wp-audio-player/image/play.png) no-repeat !important;
+font-family: "entypo-fontello";
+cursor: pointer !important;
+width: 74px !important;
+height: 74px !important;
+border: none !important;
+border-radius: 500px;
+position: relative;
+margin: 0 !important;
+padding: 0 !important;
+}
+.student-sound-block .sc_player_container1 .myButton_stop {
+background: #ffd554 url(http://triplec.dev/wp-content/plugins/compact-wp-audio-player/image/pause.png) no-repeat !important;
+cursor: pointer !important;
+width: 74px !important;
+height: 74px !important;
+border: none !important;
+border-radius: 500px;
+position: relative;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+
 /*
 CODE PAGE
 ==================================================*/
@@ -111,7 +139,7 @@ ABOUT US PAGE
 #assistants-newyork, #assistants-delhi, #assistants-manila, #assistants-shanghai {margin-top:30px;}
 
 /*
-COMPOSE PAGE avia_codeblock_section avia_code_block_3
+COMPOSE PAGE 
 ==================================================*/
 
 #student-projects .iconbox_icon{border: none;}
@@ -124,24 +152,21 @@ COMPOSE PAGE avia_codeblock_section avia_code_block_3
 #resources-section .content  {padding-top: 15px;}
 
 .student-sound-projects {padding: 0 50px 25px 50px;}
-/*.student-sound-projects .responsive #top .container .av-content-small, .responsive #top #wrap_all .flex_column, .responsive #top #wrap_all .av-flex-cells .no_margin{margin: 0;}*/
-/*.student-sound-projects .av_codeblock_section{width: 75px;}
-.student-sound-projects .student-sound-block{margin: 0;}*/
+
+/*.avia_textblock_section{
+  margin-left: 6%;
+  width: 29.333333333333332%;
+}
+*/
 
 
 /*
 COLLABORATE PAGE
 ==================================================*/
 
-/*#code-combinator .av-special-heading {display: none;}
-#code-combinator p{display: none;}
-
 /*Previous location information on the Collaborate page*/
 #previous-workshops .subsection-title{margin-top: 30px; margin-bottom: 15px;}
 #previous-workshops .hr, #previous-workshops .hr-short {display: none;}
-/*
-.location-names{margin-top: 12px;}
-.location-descriptions{display: none;}*/
 
 /*
 CODE PAGE 
