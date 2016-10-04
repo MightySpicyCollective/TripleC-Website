@@ -152,6 +152,14 @@ COMPOSE PAGE
 #resources-section .content  {padding-top: 15px;}
 
 .student-sound-projects {padding: 0 50px 25px 50px;}
+.student-sound-projects .flex_cell_inner .av_one_third {
+  margin-left: 6%;
+  width: 29.333333333333332% !important;
+}
+.student-sound-projects .flex_cell_inner .av_two_third {
+  margin-left: 6%;
+  width: 64.66666666666666% !important;
+}
 
 /*.avia_textblock_section{
   margin-left: 6%;
@@ -184,6 +192,8 @@ CODE PAGE
 BLOG PAGE
 =================================================*/
 .slide-entry-excerpt{display: none;}
+
+
 }
 
 
