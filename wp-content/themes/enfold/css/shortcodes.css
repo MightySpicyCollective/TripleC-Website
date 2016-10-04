@@ -40,7 +40,7 @@ line-height: 1.65em;
 Columns
 ====================================================================================================================================================== */
 body .column-top-margin{
-margin-top:50px;
+margin-top:5px;
 }
 
 
@@ -65,9 +65,12 @@ position: relative;
 
 .flex_column + .av-special-heading{float:left; }
 
+/*subheaders next to left-aligned images*/
+
 body .av-special-heading .av-special-heading-tag{
 padding:0;
 margin:0;
+margin-bottom: 20px;
 float:left;
 }
 
@@ -156,7 +159,7 @@ COLOR SECTION
 clear:both;
 width:100%;
 float:left;
-min-height:100px;
+min-height:66px;
 position: static; /*fixes a glitch with bg image not displaying below video slide*/
 }
 
@@ -666,17 +669,17 @@ border-top-style:solid;
 
 
 
-.hr-short{height:20px; line-height:20px; margin:30px 0; float:none;}
+.hr-short{height:20px; line-height:20px; margin:30px 0; }
 .hr-short .hr-inner{ width:32%; left:50%; margin-left:-16%;  }
 .hr-short.hr-left .hr-inner{  left:0%; margin-left:0%;}
 .hr-short.hr-right .hr-inner{ left:auto; right:0; margin-left:0%; }
 .hr-short .hr-inner-style{border-radius: 20px; height:9px; width:9px; border-width:2px; border-style:solid; display:block; position: absolute; left:50%; margin-left:-5px; margin-top:-5px; }
-.hr-short.hr-left .hr-inner-style{  left:5px; }
+.hr-short.hr-left .hr-inner-style{  left:5px;  }
 .hr-short.hr-right .hr-inner-style{  left:auto; right:0; }
 
-body .container_wrap .hr.avia-builder-el-last, body .container_wrap .hr.avia-builder-el-first {
-margin:30px 0;
-}
+/*body .container_wrap .hr.avia-builder-el-last, body .container_wrap .hr.avia-builder-el-first {
+margin:30px 0; 
+}*/
 
 
 /*custom*/
@@ -685,6 +688,8 @@ margin:30px 0;
 .hr-custom.hr-center{text-align: center;}
 .hr-custom.hr-right {text-align: right;}
 .hr-custom.hr-left  {text-align: left;}
+
+.hr-custom .hr-inner-style{border-radius: 20px; height:9px; width:9px; border-width:2px; border-style:solid; display:block; position: absolute; left:50%; margin-left:-5px; margin-top:-5px; }
 
 .hr-custom .hr-inner.inner-border-av-border-none{border:none;}
 .hr-custom .hr-inner.inner-border-av-border-fat{border-top-width:2px;}
@@ -3535,6 +3540,7 @@ div.slider-not-first, .html_header_transparency #top .avia-builder-el-0{border-t
 .avia-slide-wrap{
 position: relative;
 display: block;
+margin-top: 0;
 }
 
 .avia-slide-wrap>p{margin:0; padding:0;}

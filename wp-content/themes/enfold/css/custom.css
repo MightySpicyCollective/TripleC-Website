@@ -13,9 +13,105 @@ Desktop Styles
 @media only screen and (min-width: 768px) {
   /* Add your Desktop Styles here */
 
+/*
+GENERAL
+==================================================*/
+
+/*Orange type at the top of inner pages*/
+.page_description{position: relative; top:-.25em; text-align: center; margin-top: 20px; font-size: 1.2em;}
+
+/*Centered grey subsection titles*/
+.subsection-title{font-weight: 600; text-align: center; color: #666666;}
+
+.news-thumb{border: none; margin-top: 0; width: 40px; height: 40px;}
+.news-thumb img {width: 36px; height: auto; border-radius: 20px;}
+
+#homepage-introduction .entry-content-header a:hover{color:#f05a1a;}
+
+/*Change to grey background for orange sub-headers*/
+.title_container {background-color: #ffffff;}
+
+/*
+ABOUT US PAGE
+==================================================*/
+
+#introduction img{margin-top: 50px;}
+#introduction .av-special-heading {margin-top: 50px;}
+#team-section{margin-top: 50px;}
+#assistants-newyork, #assistants-delhi, #assistants-manila, #assistants-shanghai {margin-top:30px;}
+
+/*
+COLLABORATE PAGE
+==================================================*/
+
+/*Previous location information on the Collaborate page*/
+.location-names{margin-top: 12px;}
+#previous-workshops h5{color:#f05a1a;}
+#previous-workshops a:hover{color: #222222;}
+.location-descriptions{margin-top: 4px;}
+
+#code-combinator .av-special-heading {margin-top: 55px;}
+#code-combinator p{margin-top:20px; }
+
+}
+
+/*
+COMPOSE PAGE
+==================================================*/
+
+#student-projects .iconbox_icon{border: none; border-style: none; border-width: 0; border-color: transparent;}
+#resources-section h5{color:#f05a1a;}
+#resources-section a:hover{color: #222222;}
+.compose-slider {overflow: hidden;}
+
+
+.student-sound-projects {padding: 0 125px 50px 125px;}
+.student-sound-projects .flex_cell{padding:0;}
+.student-sound-projects div .av_two_third {padding-right:2%; padding-top: 15px;}
+.student-sound-projects div .long-list {padding-right:2%; padding-top: 0px;}
+.student-sound-projects div .av_two_third p{margin-top: 5px;}
+.student_sound-projects .avia_codeblock_section .avia_code_block_0{width:75px;}
+.student-sound-projects .student-sound-block{width: 75px;}
+.student-sound-projects h6{line-height: 20px;}
+
+/*audio plugin changes*/
+
+.student-sound-block .sc_player_container1 .myButton_play {
+background: #ffd554 url(http://triplec.dev/wp-content/plugins/compact-wp-audio-player/image/play.png) no-repeat !important;
+font-family: "entypo-fontello";
+cursor: pointer !important;
+width: 74px !important;
+height: 74px !important;
+border: none !important;
+border-radius: 500px;
+position: relative;
+margin: 0 !important;
+padding: 0 !important;
+}
+.student-sound-block .sc_player_container1 .myButton_stop {
+background: #ffd554 url(http://triplec.dev/wp-content/plugins/compact-wp-audio-player/image/pause.png) no-repeat !important;
+cursor: pointer !important;
+width: 74px !important;
+height: 74px !important;
+border: none !important;
+border-radius: 500px;
+position: relative;
+margin: 0 !important;
+padding: 0 !important;
 }
 
 
+/*
+CODE PAGE
+==================================================*/
+
+#learning-resources .hr-short {margin-bottom: 30px;}
+#teaching-resources .hr-short{margin-bottom: 30px;}
+#teaching-resources .av-content-full{padding-top: 0;}
+
+.resource-masonry h3{color:#f05a1a;}
+.resource-masonry .av-masonry-entry .av-masonry-entry-title{font-size: 21px; margin-top: 100px;}
+.resource-masonry .av-masonry-entry .av-masonry-entry-content{font-size: 14px;}
 
 /*
 Mobile Styles
@@ -25,4 +121,72 @@ Mobile Styles
 @media only screen and (max-width: 767px) {
   /* Add your Mobile Styles here */
 
+/*
+GENERAL
+==================================================*/
+.news-thumb{border: none; margin-top: 0; width: 40px; height: 40px;}
+.news-thumb img {width: 36px; height: auto; border-radius: 20px;}
+.page_description{font-size: 12px; text-align: center;}
+.title_container {background-color: #ffffff;}
+
+/*
+ABOUT US PAGE
+==================================================*/
+
+#introduction img{margin-top: 50px;}
+#introduction .av-special-heading {margin-top: 0;}
+#introduction .hr .hr-default .hr-inner{display: none;}
+#assistants-newyork, #assistants-delhi, #assistants-manila, #assistants-shanghai {margin-top:30px;}
+
+/*
+COMPOSE PAGE 
+==================================================*/
+
+#student-projects .iconbox_icon{border: none;}
+#student-projects .hr-short{display: none;}
+#student-projects .av-content-full{padding-bottom: 15px;}
+
+#resources-section a:hover{color: #222222;}
+#resources-section h3, #resources-section .special-heading-border, #resources-section .av-special-heading {display: none;}
+#resources-section .hr-short{display: none;}
+#resources-section .content  {padding-top: 15px;}
+
+.student-sound-projects {padding: 0 50px 25px 50px;}
+
+/*.avia_textblock_section{
+  margin-left: 6%;
+  width: 29.333333333333332%;
 }
+*/
+
+
+/*
+COLLABORATE PAGE
+==================================================*/
+
+/*Previous location information on the Collaborate page*/
+#previous-workshops .subsection-title{margin-top: 30px; margin-bottom: 15px;}
+#previous-workshops .hr, #previous-workshops .hr-short {display: none;}
+
+/*
+CODE PAGE 
+==================================================*/
+
+#learning-resources h3 {text-align: center; margin-bottom:15px;}
+#learning-resources .hr-short {display: none;}
+#teaching-resources h3 {text-align: center; margin-bottom:15px;}
+#teaching-resources .hr-short {display: none;}
+
+.resource-masonry figcaption{display: none;}
+
+
+/*
+BLOG PAGE
+=================================================*/
+.slide-entry-excerpt{display: none;}
+}
+
+
+
+
+
