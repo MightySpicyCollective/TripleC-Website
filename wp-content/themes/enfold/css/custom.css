@@ -77,7 +77,7 @@ COMPOSE PAGE
 /*audio plugin changes*/
 
 .student-sound-block .sc_player_container1 .myButton_play {
-background: #ffd554 url(http://triplec.dev/wp-content/plugins/compact-wp-audio-player/image/play.png) no-repeat !important;
+background: #ffd554 url(http://stage.triplec.global/wp-content/uploads/2015/02/play.png) no-repeat !important;
 font-family: "entypo-fontello";
 cursor: pointer !important;
 width: 74px !important;
@@ -89,7 +89,7 @@ margin: 0 !important;
 padding: 0 !important;
 }
 .student-sound-block .sc_player_container1 .myButton_stop {
-background: #ffd554 url(http://triplec.dev/wp-content/plugins/compact-wp-audio-player/image/pause.png) no-repeat !important;
+background: #ffd554 url(http://stage.triplec.global/wp-content/uploads/2015/02/pause.png) no-repeat !important;
 cursor: pointer !important;
 width: 74px !important;
 height: 74px !important;
